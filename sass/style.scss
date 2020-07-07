@@ -1,0 +1,36 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/ssstyle.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+//Icon Styles
+@import "fontawesome/scss/fontawesome";
+@import "fontawesome/scss/solid";
+@import "fontawesome/scss/brands";
+
+/* ==========================================================================
+   Media styles
+   ========================================================================== */
+@import "mixins";
+
+/*======================================================================
+    Global Style
+========================================================================*/
+@import "global";
+
+/*======================================================================
+    Header Style
+========================================================================*/
+@import "header";
+
+/*======================================================================
+    Footer Style
+========================================================================*/
+@import "footer";
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+@import "custom";
